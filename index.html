@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <section id="navbar">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="./Img/logo.png" /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">ABOUT US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">SERVICES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#team">OUR TEAM</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#promo">PRICE PLANS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#testimonials">TESTIMONIALS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <!-- sLIDER -->
+
+    <div id="slider">
+      <div id="headerSlider" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#headerSlider"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#headerSlider"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#headerSlider"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./Img/img1.jpg" class="d-block img-fluid" alt="..." />
+            <div class="carousel-caption">
+              <h5>How TO Make A Website</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./Img/img2.jpg" class="d-block img-fluid" alt="..." />
+            <div class="carousel-caption">
+              <h5>Create Responsive Website</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./Img/img3.jpg" class="d-block img-fluid" alt="..." />
+            <div class="carousel-caption">
+              <h5>Business Website</h5>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#headerSlider"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#headerSlider"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- About -->
+
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2>About Us</h2>
+            <div class="about-content">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus
+              provident dignissimos molestias eius ad ex explicabo, maxime
+              beatae consequatur dolorum reprehenderit rerum exercitationem?
+              Adipisci fugit aut quis nam distinctio ducimus quod! Aliquam
+              quidem impedit, dolor velit quod temporibus nobis, aut fugit quae
+              soluta ab quas provident aspernatur dolorem et ex?
+            </div>
+            <button type="button" class="btn btn-primary">Read More</button>
+          </div>
+          <div class="col-md-6 skills-bar">
+            <p>HTMl</p>
+            <div class="progress">
+              <div class="progress-bar" style="width: 80%">80%</div>
+            </div>
+            <p>CSS</p>
+            <div class="progress">
+              <div class="progress-bar" style="width: 75%">75%</div>
+            </div>
+            <p>Java script</p>
+            <div class="progress">
+              <div class="progress-bar" style="width: 85%">85%</div>
+            </div>
+            <p>Boostrap</p>
+            <div class="progress">
+              <div class="progress-bar" style="width: 90%">90%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="container">
+        <h1>Our Services</h1>
+        <div class="row services">
+          <div class="col-md-3 text-center">
+            <div class="icon">
+              <i class="fas fa-desktop"></i>
+            </div>
+            <h3>Web Development</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta
+              doloribus voluptatem corporis cum culpa aperiam.
+            </p>
+          </div>
+          <div class="col-md-3 text-center">
+            <div class="icon">
+              <i class="fas fa-tablet"></i>
+            </div>
+            <h3>Web Development</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta
+              doloribus voluptatem corporis cum culpa aperiam.
+            </p>
+          </div>
+          <div class="col-md-3 text-center">
+            <div class="icon">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <h3>Digital Marketing</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta
+              doloribus voluptatem corporis cum culpa aperiam.
+            </p>
+          </div>
+          <div class="col-md-3 text-center">
+            <div class="icon">
+              <i class="fas fa-paint-brush"></i>
+            </div>
+            <h3>Graphics Designing</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta
+              doloribus voluptatem corporis cum culpa aperiam.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- team member -->
+
+    <section id="team">
+      <div class="container">
+        <h1>Our Team</h1>
+        <div class="row">
+          <div class="col-md-3 profile-pic text-center">
+            <div class="img-box">
+              <img src="./Img/img2.jpg" alt="" class="img-responsive" />
+              <ul>
+                <a href=""
+                  ><li><i class="fab fa-facebook-f"></i></li
+                ></a>
+                <a href=""
+                  ><li><i class="fab fa-twitter"></i></li
+                ></a>
+                <a href=""
+                  ><li><i class="fab fa-instagram"></i></li
+                ></a>
+              </ul>
+            </div>
+            <h2>Sandeep Gupta</h2>
+            <h3>Founder / CEO</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
+              enim?
+            </p>
+          </div>
+          <div class="col-md-3 profile-pic text-center">
+            <div class="img-box">
+              <img src="./Img/img2.jpg" alt="" class="img-responsive" />
+              <ul>
+                <a href=""
+                  ><li><i class="fab fa-facebook-f"></i></li
+                ></a>
+                <a href=""
+                  ><li><i class="fab fa-twitter"></i></li
+                ></a>
+                <a href=""
+                  ><li><i class="fab fa-instagram"></i></li
+                ></a>
+              </ul>
+            </div>
+            <h2>Sandeep Gupta</h2>
+            <h3>Founder / CEO</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
+              enim?
+            </p>
+          </div>
+          <div class="col-md-3 profile-pic text-center">
+            <div class="img-box">
+              <img src="./Img/img2.jpg" alt="" class="img-responsive" />
+              <ul>
+                <a href=""
+                  ><li><i class="fab fa-facebook-f"></i></li
+                ></a>
+                <a href=""
+                  ><li><i class="fab fa-twitter"></i></li
+                ></a>
+                <a href=""
+                  ><li><i class="fab fa-instagram"></i></li
+                ></a>
+              </ul>
+            </div>
+            <h2>Sandeep Gupta</h2>
+            <h3>Founder / CEO</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
+              enim?
+            </p>
+          </div>
+          <div class="col-md-3 profile-pic text-center">
+            <div class="img-box">
+              <img src="./Img/img2.jpg" alt="" class="img-responsive" />
+              <ul>
+                <a href=""
+                  ><li><i class="fab fa-facebook-f"></i></li
+                ></a>
+                <a href=""
+                  ><li><i class="fab fa-twitter"></i></li
+                ></a>
+                <a href=""
+                  ><li><i class="fab fa-instagram"></i></li
+                ></a>
+              </ul>
+            </div>
+            <h2>Sandeep Gupta</h2>
+            <h3>Founder / CEO</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
+              enim?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Promo -->
+
+    <section id="promo">
+      <div class="container">
+        <p>Get Free Domain Name and Web Hosting</p>
+        <a href="" class="btn btn-primary">Contact Us</a>
+      </div>
+    </section>
+
+    <!-- price plan -->
+
+    <section id="price">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="single-price">
+              <div class="price-head">
+                <h2>Free</h2>
+                <p>$0/ <span>Month</span></p>
+              </div>
+              <div class="price-content">
+                <ul>
+                  <li><i class="fa fa-check-circle"></i>5GB Space</li>
+                  <li><i class="fa fa-check-circle"></i>10GB Bandwidth</li>
+                  <li><i class="fa fa-times-circle"></i>15 Email Account</li>
+                  <li><i class="fa fa-times-circle"></i>unlimited domain</li>
+                  <li><i class="fa fa-times-circle"></i>Unlimited Support</li>
+                </ul>
+              </div>
+              <div class="price-button">
+                <a href="#" class="buy-btn">Join Free</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="single-price">
+              <div class="price-head">
+                <h2>Free</h2>
+                <p>$0/ <span>Month</span></p>
+              </div>
+              <div class="price-content">
+                <ul>
+                  <li><i class="fa fa-check-circle"></i>5GB Space</li>
+                  <li><i class="fa fa-check-circle"></i>10GB Bandwidth</li>
+                  <li><i class="fa fa-times-circle"></i>15 Email Account</li>
+                  <li><i class="fa fa-times-circle"></i>unlimited domain</li>
+                  <li><i class="fa fa-times-circle"></i>Unlimited Support</li>
+                </ul>
+              </div>
+              <div class="price-button">
+                <a href="#" class="buy-btn">Join Free</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="single-price">
+              <div class="price-head">
+                <h2>Free</h2>
+                <p>$0/ <span>Month</span></p>
+              </div>
+              <div class="price-content">
+                <ul>
+                  <li><i class="fa fa-check-circle"></i>5GB Space</li>
+                  <li><i class="fa fa-check-circle"></i>10GB Bandwidth</li>
+                  <li><i class="fa fa-times-circle"></i>15 Email Account</li>
+                  <li><i class="fa fa-times-circle"></i>unlimited domain</li>
+                  <li><i class="fa fa-times-circle"></i>Unlimited Support</li>
+                </ul>
+              </div>
+              <div class="price-button">
+                <a href="#" class="buy-btn">Join Free</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="single-price">
+              <div class="price-head">
+                <h2>Free</h2>
+                <p>$0/ <span>Month</span></p>
+              </div>
+              <div class="price-content">
+                <ul>
+                  <li><i class="fa fa-check-circle"></i>5GB Space</li>
+                  <li><i class="fa fa-check-circle"></i>10GB Bandwidth</li>
+                  <li><i class="fa fa-times-circle"></i>15 Email Account</li>
+                  <li><i class="fa fa-times-circle"></i>unlimited domain</li>
+                  <li><i class="fa fa-times-circle"></i>Unlimited Support</li>
+                </ul>
+              </div>
+              <div class="price-button">
+                <a href="#" class="buy-btn">Join Free</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- testimonial -->
+
+    <section id="testimonials">
+      <div class="container">
+        <h1>Testimonials</h1>
+        <p class="text-center">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius,
+          laborum.
+        </p>
+
+        <div class="row">
+          <div class="col-md-4 text-center">
+            <div class="profile">
+              <img src="./Img/1.jpg" alt="" class="user" />
+              <blockquote>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque,
+                quasi!
+              </blockquote>
+              <h3>Sandeep Gupta  <br><span>Co-founder at Destinzo</span></h3>
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="profile">
+              <img src="./Img/1.jpg" alt="" class="user" />
+              <blockquote>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque,
+                quasi!
+              </blockquote>
+              <h3>Sandeep Gupta <br><span>Co-founder at Destinzo</span></h3>
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="profile">
+              <img src="./Img/1.jpg" alt="" class="user" />
+              <blockquote>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque,
+                quasi!
+              </blockquote>
+              <h3>Sandeep Gupta  <br><span>Co-founder at Destinzo</span></h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h1>Get in Touch</h1>
+        <div class="row">
+          <div class="col-md-6">
+            <form action="" class="contact-form">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Your Name" />
+              </div>
+              <div class="form-group">
+                <input type="number" class="form-control" placeholder="Your Mobile Number" />
+              </div>
+              <div class="form-group">
+                <input type="eamil" class="form-control" placeholder="Your Email" />
+              </div>
+              <div class="form-group">
+                
+                <textarea  class="form-control" placeholder="Your Message" cols="5" rows="5">
+              </textarea>
+                </div>
+                <button class="btn btn-primary" type="button">Send Message</button>
+            </form>
+          </div>
+          <div class="col-md-6 contact-info">
+            <div class="follow">
+              <i class="fas fa-map-marker-alt"></i> <b>Address:</b>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</b>
+            </div>
+
+            <div class="follow">
+              <i class="fas fa-map-marker-alt"></i> <b>Address:</b>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</b>
+            </div>
+
+            <div class="follow">
+              <i class="fas fa-map-marker-alt"></i> <b>Address:</b>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</b>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+
+    <section id="footer">
+      <div class="container text-center" >
+        <p>Design And Developed by <span> Sandeep Gupta </span></p>
+      </div>
+
+    </section>
+  </body>
+</html>
